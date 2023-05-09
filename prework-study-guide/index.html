@@ -94,17 +94,27 @@
             <li> Selector defines the element or attributes to which the rules, or declarations, will apply.</li>
             <li>Declarations contain two important components: the CSS property we want to apply and the value of the property.</li>
           </ul>
-        </ul>
-        
+        <li>A margin property indicates how much space we want around the outside of an element</li>
+        <li>The padding property adds space around the content inside an element.</li>
+        <li>A text-align property is used to align a title or heading on a webpage.</li>
+        <li>When the display property is assigned to the image selector with the block value, then it assigns each image to start on a new line.</li>
+      </ul>
       </section>
    
       <section class="card" id="git-section">
    
         <h2>Git</h2>
         <ul>
+          <li>Git is a version control system that lets you manage and keep track of each version of your project.To access Git, we use the command line.Git commands always start with git and are used to save and track versions of your code. Using Git commands, we can initiate (or create) a repo, add our code to the repo, and view the different versions of our code, which are each stored in a unique commit.</li>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-        </ul>  
+          <li>git add -A: The add command adds modifications in the current working branch to the staging area. The -A flag indicates that we want to add all changes. The staging area informs Git that the changes will be added in the next commit.</li>
+          <li>git commit -m "description" : A commit was created that captures a snapshot of the currently staged changes. Once committed, new branch will be updated. </li>
+           <li>git pull origin main: To pull the latest version of the project to the local computer from the GitHub repository.</li>
+           <li>git push origin branch-name: to push the changes we have locally to our remote GitHub branch.
+
+           </li>
+          </ul>  
 
       </section>
    
@@ -113,7 +123,44 @@
         <ul>
           <li>JavaScript (JS) is a high-level dynamic programming language that allows users to interact with websites.</li>
           <li>A variable is a named container that allows us to store data in our code.</li>
-          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <br>
+          <ul> e.g. var topic="HTML";</ul>
+          <br>
+          <li>console.log method is used to output a message to the web console by adding an argument.This can be viewed using Chrome Devtools.</li>
+          <br>
+          <ul>console.log("HTML");</ul>
+          <br>
+          <li>Control flow is the order in which a computer executes code in a script.Conditional statements(if else statement) and loops(for loop) are used to control the order in which code is executed</li>
+          <li>Array</li>
+          <ul>
+          <li>An array is a single variable that is used to hold a group of data. Arrays are typically used to hold data that is related in some way.</li>
+          <br>
+          <ul> e.g var topics = ['HTML', 'CSS', 'Git', 'JavaScript'];</ul>
+          <br>
+          <li>Arrays are useful tools for storing multiple items with different data types in a single variable.</li>
+          <br>
+          <ul> e.g. var studentInfo = ["Lu", 54, true];</ul> 
+          <br>
+          <li>The location of data item in an array is identified with a unique number called an index.Arrays are zero-indexed and sequential. </li>
+          <br>
+          <ul>topics[0] returns 'HTML'</ul>
+          <br>
+        </ul>
+        
+          <li>A for loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over.</li>
+          <ul>for (var x = 0; x < topics.length; x++)  <br>{
+            console.log(topics[x]);
+           }</ul>
+        <li>Function</li>
+          <ul><li>A function is simply a set of instructions that tells the computer how to perform a certain task.</li>
+             <li>A function is executed only when it is called by its name.</li>
+             <li>It makes the code more easily reusable.</li>
+             <li>To create a function, we use the function keyword and a unique name</li>
+       <ul>e.g . function helloWorld() {
+          // code block
+         }</ul>
+         <li>To call a function, we use the name of the function in our JavaScript file where we want the code to execute.</li>
+            <ul>e.g. helloWorld();</ul>
         </ul>
         
       </section>
